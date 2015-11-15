@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   'hubot-heroku-keepalive' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose link symlinking /usr/local/lib/node_modules/hubot-heroku-keepalive to /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive
+5 silly gentlyRm /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive is being purged
+6 verbose gentlyRm don't care about contents; nuking /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive
+7 silly vacuum-fs purging /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive
+8 silly vacuum-fs quitting because other entries in /Users/jasonkung/Desktop/humble-slackbot/node_modules
+9 info build /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive
+10 verbose stack Error: ELOOP: too many symbolic links encountered, open '/Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive/package.json'
+10 verbose stack     at Error (native)
+11 verbose cwd /Users/jasonkung/Desktop/humble-slackbot
+12 error Darwin 15.0.0
+13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link" "hubot-heroku-keepalive"
+14 error node v4.1.1
+15 error npm  v2.14.4
+16 error path /Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive/package.json
+17 error code ELOOP
+18 error errno -62
+19 error syscall open
+20 error ELOOP: too many symbolic links encountered, open '/Users/jasonkung/Desktop/humble-slackbot/node_modules/hubot-heroku-keepalive/package.json'
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ -62, true ]

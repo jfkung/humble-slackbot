@@ -1,1 +1,6 @@
-[]
+[
+"isup.coffee",
+"news.coffee",
+"heroku-status.coffee",
+"reload.coffee"
+]
